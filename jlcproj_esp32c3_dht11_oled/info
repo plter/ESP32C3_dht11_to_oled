@@ -1,0 +1,108 @@
+{
+  "uuid": "9d557414c62c590a1b0ff7ac83be168b",
+  "path": "Offline/esp32c3_dht11_oled",
+  "name": "esp32c3_dht11_oled",
+  "content": "",
+  "created_at": "2022-07-23 10:13:21",
+  "updated_at": "2022-07-23 11:44:02",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "dd8bebe6798e14358bc418bda7f90952",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "56372ed1701d4e89a493063a23aa20c4": 1,
+        "772ffd91ec824f34808febf50002c3c4": 1,
+        "b2a0b134445b41328388200a6421b674": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.96OLED_4P_MODULE_JX",
+          1,
+          "0.96OLED_4P",
+          "OLED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900004566",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "0.96OLED_4P_MODULE_JX",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "88b7b62f56d14ce0a65d98c420c09d52",
+            "uuid": "b2a0b134445b41328388200a6421b674"
+          }
+        ],
+        [
+          "LUATOS ESP32C3",
+          1,
+          "LUATOS ESP32C3",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LUATOS",
+            "puuid": "087a7908a4fc4f78a1040c013fb043ce",
+            "uuid": "56372ed1701d4e89a493063a23aa20c4"
+          }
+        ],
+        [
+          "DHT11-3脚",
+          1,
+          "DHT11-3脚",
+          "U2",
+          {
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "C476208",
+            "BOM_Manufacturer": "CYBERSEN",
+            "BOM_Manufacturer Part": "CHT11",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "6ac2d860269948b9aada126331c1a425",
+            "uuid": "772ffd91ec824f34808febf50002c3c4"
+          }
+        ]
+      ],
+      "updateTime": 1658545635,
+      "createTime": 1658542401,
+      "histories": [],
+      "created_at": "2022-07-23 10:13:21",
+      "updated_at": "2022-07-23 11:07:15"
+    },
+    {
+      "uuid": "627a3291692ce779581d419b79ea656f",
+      "puuid": "9d557414c62c590a1b0ff7ac83be168b",
+      "title": "PCB_esp32c3_dht11_oled",
+      "filename": "PCB_esp32c3_dht11_oled.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "88b7b62f56d14ce0a65d98c420c09d52": 1,
+        "087a7908a4fc4f78a1040c013fb043ce": 1,
+        "6ac2d860269948b9aada126331c1a425": 1
+      },
+      "BOM": [],
+      "updateTime": 1658547842,
+      "createTime": 1658546028,
+      "histories": [],
+      "created_at": "2022-07-23 11:13:48",
+      "updated_at": "2022-07-23 11:44:02"
+    }
+  ],
+  "sort": [],
+  "title": "esp32c3_dht11_oled",
+  "foldername": "esp32c3_dht11_oled",
+  "schfilename": "esp32c3_dht11_oled.json",
+  "schfilemtime": 1658545635039
+}
