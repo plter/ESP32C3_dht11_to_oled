@@ -55,6 +55,11 @@ U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE, 4, 5);
 
 
 void setup(void) {
+  pinMode(12,OUTPUT);
+  pinMode(13,OUTPUT);
+  digitalWrite(12,LOW);
+  digitalWrite((13,LOW);
+
   dht.begin();
   
   u8g2.begin();
