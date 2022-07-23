@@ -58,7 +58,7 @@ void setup(void) {
   pinMode(12,OUTPUT);
   pinMode(13,OUTPUT);
   digitalWrite(12,LOW);
-  digitalWrite((13,LOW);
+  digitalWrite(13,LOW);
 
   dht.begin();
   
