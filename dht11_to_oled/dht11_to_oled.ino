@@ -51,7 +51,9 @@
 #define SCREEN_HEIGHT 64
 
 DHT dht(8, DHT11);
+
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE, 4, 5);
+// U8G2_SSD1306_128X32_UNIVISION_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE, 4, 5);
 
 
 void setup(void) {
@@ -82,7 +84,7 @@ void loop(void) {
   u8g2.print("温度: ");
   u8g2.print(t);
   u8g2.print("°C");
-  u8g2.setCursor(0, 40);
+  u8g2.setCursor(0, 31);
   u8g2.print("湿度: ");
   u8g2.print(h);
   u8g2.print(" %");
